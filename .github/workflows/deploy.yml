@@ -11,7 +11,7 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Build
-        run: yarn run build
+        run: yarn build --base /slidev/
       - name: Deploy pages
         uses: crazy-max/ghaction-github-pages@v2
         with:
