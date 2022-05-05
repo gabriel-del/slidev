@@ -34,8 +34,8 @@ Learn more about on [Slidev guide](https://sli.dev/guide).
 
 #### Improvements
 
-Decrease `yarn build` time.
-
+- Decrease `yarn build` time.
+- Can't go to a slide page directly from url. Example: [https://gabriel-del.github.io/slidev/slides/2](https://gabriel-del.github.io/slidev/slides/2)
 
 
 
