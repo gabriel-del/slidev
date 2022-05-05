@@ -2,7 +2,7 @@
 
 Presentation Slides for Developers
 
-[Demo](gabriel-del.github.io/slidev/slides/)
+[Demo](https://gabriel-del.github.io/slidev/slides/)
 
 To start the slide show locally:
 
