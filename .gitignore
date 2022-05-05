@@ -5,3 +5,6 @@ dist
 index.html
 .remote-assets
 components.d.ts
+*.lock
+*.log
+pdf

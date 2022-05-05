@@ -1,11 +1,46 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Template to [Slidev](https://github.com/slidevjs/slidev)!
 
-To start the slide show:
+Presentation Slides for Developers
 
-- `npm install`
-- `npm run dev`
+[Demo](gabriel-del.github.io/slidev/slides/)
+
+To start the slide show locally:
+
+- `yarn dev <presentation>`
 - visit http://localhost:3030
 
-Edit the [slides.md](./slides.md) to see the changes.
+With this options, it's possible to record a presentation and edit files on browser.
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+To generate the html files locally:
+
+- `yarn build`
+
+
+There is also the option to export the presentations to pdf files:
+
+- `yarn export`
+
+
+To reproduce the project, including the github-pages:
+
+- Fork de project
+- Allow permission: settings -> Actions (General) -> Workflow permissions (Read and write permissions)
+- It'll be generated a gh-pages branch with the content. It can take more than 3min.
+
+Edit the [./presentations/slides.md](./presentations/slides.md) to see the changes.
+
+Learn more about on [Slidev guide](https://sli.dev/guide).
+
+
+#### Improvements
+
+Decrease `yarn build` time.
+
+
+
+
+
+
+
+
+
