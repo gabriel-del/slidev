@@ -27,6 +27,7 @@ To reproduce the project, including the github-pages:
 - Fork de project
 - Allow permission: settings -> Actions (General) -> Workflow permissions (Read and write permissions)
 - It'll be generated a gh-pages branch with the content. It can take more than 3min.
+- Start gh-pages branch: settings -> Pages -> Source -> Branch: gh-pages -> Save.
 
 Edit the [./presentations/slides.md](./presentations/slides.md) to see the changes.
 
