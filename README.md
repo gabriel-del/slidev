@@ -1,48 +1,29 @@
-# Template to [Slidev](https://github.com/slidevjs/slidev)!
+# [Kindelia](https://kindelia.org/)  Class slides !
 
-Presentation Slides for Developers
+### Presentations to  [kindelia](https://kindelia.org/)  portuguese classes hosted on  [youtube](https://www.youtube.com/c/Kindelia).
 
-[Demo](https://gabriel-del.github.io/slidev/slides/)
+#### Start from  [the first one](https://kindelia.github.io/slides/slides/).
 
-To start the slide show locally:
+## How To Install Locally: 
+> Slidev requires [**Node.js >=14.0**](https://nodejs.org/)
+#### You can install Slidev with the following command
+`$ npm i -g @slidev/cli`
 
-- `yarn install`
-- `yarn dev <presentation>`
+#### And then use `slidev` everywhere without creating a project every time.
+ `$ slidev`
+
+## How to run our slides:
+
+#### Clone this repository
+`$ git clone https://github.com/Kindelia/slides.git`
+
+`$ cd slides`
+
+#### Now you need to run this command
+`$ slidev presentations/(NameOfArchive).md`
+
+#### For example, to access aula1:
+`slidev presentations/aula1.md`
+
+#### Now, all you need is to access this link:
 - visit http://localhost:3030
-
-With this options, it's possible to record a presentation and edit files on browser.
-
-To generate the html files locally:
-
-- `yarn build`
-
-
-There is also the option to export the presentations to pdf files:
-
-- `yarn export`
-
-
-To reproduce the project, including the github-pages:
-
-- Fork de project
-- Allow permission: settings -> Actions (General) -> Workflow permissions (Read and write permissions)
-- It'll be generated a gh-pages branch with the content. It can take more than 3min.
-- Start gh-pages branch: settings -> Pages -> Source -> Branch: gh-pages -> Save.
-
-Edit the [./presentations/slides.md](./presentations/slides.md) to see the changes.
-
-Learn more about on [Slidev guide](https://sli.dev/guide).
-
-
-#### Improvements
-
-- Decrease `yarn build` time.
-- Can't go to a slide page directly from url. Example: [https://gabriel-del.github.io/slidev/slides/2](https://gabriel-del.github.io/slidev/slides/2)
-
-
-
-
-
-
-
-
