@@ -7,7 +7,7 @@ Presentation Slides for Developers
 To start the slide show locally:
 
 - `yarn install`
-- yarn globall add @slidev/cli`
+- `yarn globall add @slidev/cli`
 - `yarn dev <presentation>`
 - visit http://localhost:3030
 
